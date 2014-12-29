@@ -1,10 +1,14 @@
 (ns fizzbuzz.core)
 
+(defn isMod [a b ]
+  (= (mod a b) 0)
+)
+
 (defn fizzbuzz [a]
   (cond
-    (= (mod a 15) 0) "FizzBuzz"
-    (= (mod a 5) 0) "Buzz"
-    (= (mod a 3) 0) "Fizz"
+    (isMod a 15) "FizzBuzz"
+    (isMod a 5) "Buzz"
+    (isMod a 3) "Fizz"
     :else a
   )
 )

@@ -15,5 +15,6 @@
   )
   (it "I return FizzBuzz when the input is a multiple of 5 and 3 "
     (should= "FizzBuzz" (fizzbuzz 15))
+    (should= "FizzBuzz" (fizzbuzz 30))
   )
 )
