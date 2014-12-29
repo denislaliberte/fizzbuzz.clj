@@ -1,3 +1,3 @@
 (ns fizzbuzz.core)
 
-(defn fizzbuzz [a](identity a))
+(defn fizzbuzz [a](if(= a 3) "Fizz" a))
