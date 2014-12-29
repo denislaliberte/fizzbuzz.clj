@@ -1,3 +1,8 @@
 (ns fizzbuzz.core)
 
-(defn fizzbuzz [a](if(= a 3) "Fizz" a))
+(defn fizzbuzz [a]
+  (if(= (mod a 3) 0) 
+    "Fizz" 
+    a
+  )
+)
