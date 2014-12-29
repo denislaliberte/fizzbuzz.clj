@@ -9,4 +9,7 @@
     (should= "Fizz" (fizzbuzz 3))
     (should= "Fizz" (fizzbuzz 6))
   )
+  (it "I return Buzz when the input is a multiple of 5 "
+    (should= "Buzz" (fizzbuzz 5))
+  )
 )
