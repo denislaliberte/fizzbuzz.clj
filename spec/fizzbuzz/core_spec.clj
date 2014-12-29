@@ -17,4 +17,7 @@
     (should= "FizzBuzz" (fizzbuzz 15))
     (should= "FizzBuzz" (fizzbuzz 30))
   )
+  (it "I return a list of fizz buzz  "
+    (should= '(1 2 "Fizz" 4 "Buzz" "Fizz" 7 8 "Fizz" "Buzz" 11 "Fizz" 13 14 "FizzBuzz") (fizzbuzzlist 15))
+  )
 )

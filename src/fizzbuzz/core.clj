@@ -12,3 +12,7 @@
     :else a
   )
 )
+
+(defn fizzbuzzlist [a]
+  (map fizzbuzz (range 1 (inc a)))
+)
